@@ -10,8 +10,8 @@ function sameFrequency(num1, num2) {
   const num2Len = Math.ceil(Math.log10(num2 + 1));
   if (num1Len !== num2Len) return false;
 
-  const num1Count = sort(num1.toString().split(""));
-  const num2Count = sort(num2.toString().split(""));
+  const num1Count = sort(num1.toString());
+  const num2Count = sort(num2.toString());
   if (num1Count.size !== num2Count.size) return false;
 
   for (let num of num1Count.keys()) {
