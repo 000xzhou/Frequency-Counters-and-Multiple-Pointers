@@ -29,5 +29,3 @@ longestFall([2, 2, 2]); // 1, 2 is the longest consecutive sequence of decreasin
 longestFall([5, 4, 4, 4, 3, 2]); // 3, 4-3-2 is the longest
 longestFall([9, 8, 7, 6, 5, 6, 4, 2, 1]); // 5, 9-8-7-6-5 is the longest
 longestFall([]); // 0
-
-[5, 4, 3, 4, 3, 2, 1];
